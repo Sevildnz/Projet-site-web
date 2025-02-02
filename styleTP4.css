@@ -1,0 +1,21 @@
+body {
+    background-color: turquoise ; 
+	text-align : center ; 
+	display : flex ;
+	flex-direction : column ;
+}
+
+.conteneur {
+    display : flex ;
+	flex-direction : column ; 
+	margin : 0 auto;
+	border : 10px solid pink ; 
+	padding : 10px solid pink ; 
+	margin : 10px solid pink ; 
+	background-color : pink ;
+	border-radius : 10px ;
+}
+
+.conteneur #résultat {
+   color : red
+}

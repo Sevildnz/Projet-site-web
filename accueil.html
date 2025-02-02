@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title> Quiz MMOPK </title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header> 
+			<h1> Mini-jeu médical pour les PASS et LAS </h1>
+				<ul>
+					<li> <h2> <a href="#ancre1"> Accueil </a> </h2> </li>
+					<li> <h2> <a href="biochimie.html"> Biochimie</a> </h2> </li>
+					<li> <h2> <a href="biocell.html"> Biologie Cellulaire </a> </h2> </li>
+					<li> <h2> <a href="anatomie.html"> Anatomie </a> </h2> </li>
+					<li> <h2> <a href="IMC.html"> Calcul de l'IMC </a> </h2> </li>
+					<li> <h2> <a href="#ancre2"> Contactez-nous </a> </h2> </li>
+				</ul>
+		</header>
+		
+		<section>
+			<h3 id="ancre1"> Accueil </h3>
+			<p> Bienvenue sur le site qui te permettra de tester tes connaissances. <br> Tu trouveras des QCM sur plusiseurs chapitres de différentes matières ainsi qu'une correction à la fin. <br> Bon courage !<br> <br>
+			<img src="accueil.jpg" width="500" height="400"/> </p>
+			<!-- La balise orpheline img src permet l'insertion d'une image. Les attributs width et height définissent la largeur et la hauteur de l'image -->
+		</section>
+		
+		<footer>
+			<p>
+				Tous droits réservés
+			</p>
+			<p>
+				Mail: <a> sevil.deniz@edu.univ-paris13.fr </a>
+			</p>
+		</footer>
+		<section>
+			<h3 id="ancre2"> Formulaire de Contact </h3>
+			<p> <a href="mailto:sevil.deniz@edu.univ-paris13.fr"> Envoyer moi un mail </a> </p>
+			<!-- La balise a, l'attribut href et lz schéma d'URL mailto permettent d'insérer un lien pour l'envoi d'un mail vers mon adresse mail -->
+			<p> Cliquez sur <a href="https://www.univ-spn.fr/"> ce lien </a> pour accéder à mon réseau professionnel </p>
+			
+			<h4> Formulaire de contact </h4>
+			<form id="myForm">
+				<label for="fname"> Nom: </label> <br>
+				<input type="text" id="fname" name="fname"> <br> <br>
+				
+				<label for="email"> Email: </label> <br>
+				<input type="text" id="email" name="email"> <br> <br>
+				
+				<label for="message"> Message: </label> <br>
+				<input type="text" id="message" name="message"> <br> <br>
+				
+				<input type="submit" value="Envoyer">
+			</form>
+			<script src="script.js"> </script>
+		</section>
+	</body>
+</html>

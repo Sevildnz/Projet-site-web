@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title> Quiz Biologie cellulaire </title>
+		<link rel="stylesheet" href="style1.css">
+	</head>
+	<body>
+		<section>
+			<h2> Biologie Cellulaire </h2>
+			<img src="biocell.jpg" width="300" height="200"/>
+			<p> Tu as choisis de tester tes connaissances en biologie cellualire, allons-y c'est partie ! <br> 
+			Voici les chapitres sur lesquels tu peux t'entrainer : </p>
+				<table>
+					<tr> 
+						<td> <a href="#ancre2"> PRODUCTION D’ENERGIE DANS LA CELLULE </a> </td>
+						<td> 5 QCM </td>
+					</tr>
+					<tr> 
+						<td> <a href="#ancre3"> CYCLE CELLULAIRE </a> </td>
+						<td> 5 QCM </td>
+					</tr>
+					<tr> 
+						<td> <a href="#ancre5"> Calcul ton score ! </td>
+					</tr>
+				</table>
+		</section>
+		<div id="timer">Temps restant: 15:00</div>
+		<h3 id="ancre2"> PRODUCTION D’ENERGIE DANS LA CELLULE : </h3>
+		
+		<div id="question1" class="question">
+		<p> <h4> Question N°1 : </h4> A propos de la mitochondrie, quelle(s) est (sont) la (les) propositions(s) exacte(s) ? </p>
+		<ol>
+			<li> Le chloramphénicol inhibe spécifiquement la traduction mitochondriale </li>
+			<li> La mitochondrie est un réservoir de calcium dans les cellules </li>
+			<li> Les molécules d’ATP formées ressortent dans le cytosol à l’aide de transporteurs de type ADP-ATP translocases </li>
+			<li> Le franchissement de la double membrane des mitochondries nécessite de molécules de la famille de chaperonnes </li>
+			<li> C’est par défaut d’adressage que les protéines mitochondriales sont dirigées dans la mitochondrie </li>
+		</ol>
+		<button onclick="nextQuestion(1)"> Suivant </button>
+		</div>
+		
+		<div id="question2" class="question">
+		<p> <h4> Question N°2 : </h4> A propos de la glycolyse, quelle(s) est (sont) la (les) propositions(s) exacte(s) ? </p>
+		<ol>
+			<li> Elle produit un nombre important d’ATP </li>
+			<li> Elle se produit dans la mitochondrie </li>
+			<li> Elle se produit brutalement </li>
+			<li> Elle se fait uniquement à partir de glycogène </li>
+			<li> Aucune des propositions ci-dessus n’est exacte </li>
+		</ol>
+		<button onclick="nextQuestion(2)"> Suivant </button>
+		</div>
+		
+		<div id="question3" class="question">
+		<p> <h4> Question N°3 : </h4> A propos de la synthèse d’ATP dans une cellule eucaryote, quelle(s) est (sont) la (les) propositions(s) exacte(s) ? </p>
+		<ol>
+			<li> Elle se fait uniquement dans la mitochondrie </li>
+			<li> Elle se fait à partir de sucres et de lipides </li>
+			<li> Elle peut être inhibée par du cyanure </li>
+			<li> Elle se fait aussi dans les chloroplastes </li>
+			<li> Aucune des propositions ci-dessus n’est exacte </li>
+		</ol>
+		<button onclick="nextQuestion(3)"> Suivant </button>
+		</div>
+		
+		<div id="question4" class="question">
+		<p> <h4> Question N°4 : </h4> A propos de la production d'énergie dans une cellule, quelle(s) est (sont) la (les) proposition(s) exacte(s) ? </p>
+		<ol>
+			<li> Elle peut être due à des chloroplastes </li>
+			<li> Elle se manifeste sous forme de production d'ATP comme de GTP </li>
+			<li> Elle se produit chez les eucaryotes et chez les procaryotes </li>
+			<li> En aérobie, le pyruvate est transformé en acétylCoA dans le cytoplasme </li>
+			<li> Aucune proposition ci-dessus </li>
+		</ol>
+		<button onclick="nextQuestion(4)"> Suivant </button>
+		</div>
+		
+		<div id="question5" class="question">
+		<p> <h4> Question N°5 : </h4> A propos de la glycolyse, quelle(s) est (sont) la (les) proposition(s) exacte(s) ? </p>
+		<ol>
+			<li> Elle se déroule entièrement dans le cytosol </li>
+			<li> En anaérobie, le NADH est régénéré par des réactions de fermentation </li>
+			<li> Elle se fait à partir d'amidon dans les cellules animales </li>
+			<li> Le NADH qui en est issu ne peut pas servir à produire des ATP </li>
+			<li> Aucune proposition ci-dessus </li>
+		</ol>
+		<button onclick="nextQuestion(5)">Suivant</button>
+		</div>
+		
+		<h3> Correction : </h3>
+		<table>
+			<tr> 
+				<td> Question N°1 : </td>
+				<td> Réponse 1, 2, 3 et 4 </td>
+			</tr>
+			<tr> 
+				<td> Question N°2 : </td>
+				<td> Réponse 5 </td>
+			</tr>
+			<tr> 
+				<td> Question N°3 : </td>
+				<td> Réponse 2, 3 et 4 </td>
+			</tr>
+			<tr> 
+				<td> Question N°4 : </td>
+				<td> Réponse 1, 2 et 3 </td>
+			</tr>
+			<tr> 
+				<td> Question N°5 : </td>
+				<td> Réponse 1 et 2 </td>
+			</tr>
+		</table>
+		
+		<h3 id="ancre3"> CYCLE CELLULAIRE : </h3>
+		
+		<div id="question6" class="question">
+		<p> <h4> Question N°1 : </h4> A propos du complexe cyclineB/Cdk1qui assure la progression du cycle cellulaire durant la phase G2 et la mitose, quelle(s) est (sont) la (les) propositions(s) exacte(s) ? </p>
+		<ol>
+			<li> C’est un complexe à activité kinase </li>
+			<li> Il phosphoryle directement certaines histones </li>
+			<li> C’est un complexe protéique à taux constant pendant le cycle cellulaire </li>
+			<li> Il est régulé par la phosphorylation </li>
+			<li> Aucune des propositions ci-dessus n’est exacte </li>
+		</ol>
+		<button onclick="nextQuestion(6)">Suivant</button>
+		</div>
+		
+		<div id="question7" class="question">
+		<p> <h4> Question N°2 : </h4> A propos de la diminution de la concentration en MPF en fin de mitose, quelle(s) est (sont) la (les) propositions(s) exacte(s) ? </p>
+		<ol>
+			<li> Elle est due à la dégradation de l’enzyme cdk </li>
+			<li> Elle est due à la synthèse d’ADN </li>
+			<li> Elle est due à la modification du rapport volume cellulaire/volume du génome </li>
+			<li> Elle est due à la dégradation de la sécurine </li>
+			<li> Aucune des propositions ci-dessus n’est exacte </li>
+		</ol>
+		<button onclick="nextQuestion(7)"> Suivant </button>
+		</div>
+		
+		<div id="question8" class="question">
+		<p> <h4> Question N°3 : </h4> A propos de la régulation du cycle cellulaire, quelle(s) est (sont) la (les) propositions(s) exacte(s) ? </p>
+		<ol>
+			<li> Le passage en phase S est retardé quand l’ADN est lésé </li>
+			<li> La réplication est suspendue quand l’ADN est gravement endommagé </li>
+			<li> L’entrée en mitose est suspendue tant que la réplication n’est pas terminée </li>
+			<li> La séparation des chromosomes en anaphase est retardée si un seul chromosome n’est pas correctement arrimé au fuseau </li>
+			<li> Aucune des propositions ci-dessus n’est exacte </li>
+		</ol>
+		<button onclick="nextQuestion(8)"> Suivant </button>
+		</div>
+		
+		<div id="question9" class="question">
+		<p> <h4> Question N°4 : </h4> On cherche à l’aide d’un cytomètre de flux, à mettre en évidence la durée des différentes phases du cycle cellulaire, quelle(s) est (sont) la (les) propositions(s) exacte(s) ? </p>
+		<ol>
+			<li> Si on utilise un marqueur fluorescent de l’ADN, la quantité d’ADN est proportionnelle à la fluorescence </li>
+			<li> La durée d’une phase est proportionnelle au pourcentage de cellules dans cette phase </li>
+			<li> On peut mesurer le nombre de cellules en phase G2+M </li>
+			<li> On peut mesurer le nombre de cellules en phase S </li>
+			<li> Aucune des propositions ci-dessus n’est exacte </li>
+		</ol>
+		<button onclick="nextQuestion(9)"> Suivant </button>
+		</div>
+		
+		<div id="question10" class="question">
+		<p> <h4> Question N°5 : </h4> A propos de la mitose, quelle(s) est (sont) la (les) proposition(s) exacte(s) ? </p>
+		<ol>
+			<li> Les kinésines sont localisées au niveau de la chromatine </li>
+			<li> En général la prophase est la phase qui a la durée la plus longue </li>
+			<li> Les procaryotes comme les eucaryotes se divisent par mitose </li>
+			<li> La condensation des chromosomes est due au remplacement des histones par des protamines </li>
+			<li> Aucune proposition ci-dessus </li>
+		</ol>
+		<button onclick="nextQuestion(10)"> Suivant </button>
+		</div>
+		
+		<h3> Correction : </h3>
+		<table>
+			<tr> 
+				<td> Question N°1 : </td>
+				<td> Réponse 1, 2 et 4 </td>
+			</tr>
+			<tr> 
+				<td> Question N°2 : </td>
+				<td> Réponse 5 </td>
+			</tr>
+			<tr> 
+				<td> Question N°3 : </td>
+				<td> Réponse 1, 2, 3 et 4 </td>
+			</tr>
+			<tr> 
+				<td> Question N°4 : </td>
+				<td> Réponse 1, 2 et 3 </td>
+			</tr>
+			<tr> 
+				<td> Question N°5 : </td>
+				<td> Réponse 2 </td>
+			</tr>
+		</table>
+		
+		<h3 id="ancre5"> Reçois ton score à ton adresse mail ! </h3>
+		<p> A vous les points ! </p>
+			<form id="myForm">
+				<label for="réponses"> Nombre de bonnes réponses : </label> <br>
+				<input type="text" id="réponses" name="réponses"> <br> <br>
+				<label for="QCM"> Nombre de QCM : </label> <br>
+				<input type="text" id="QCM" name="QCM"> <br> <br>
+				<label for="lname"> Email: </label> <br>
+				<input type="text" id="email" name="email"> <br> <br>
+				<input type="submit" value="Envoyer">
+			</form>
+			<script src="script.js"></script>
+	</body>
+</html>
